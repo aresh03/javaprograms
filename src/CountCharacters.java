@@ -5,5 +5,11 @@ public class CountCharacters
 		/*String s="One Two Three";		
 		int characterCount=s.length();
 		System.out.println(characterCount);*/
+		
+		//Second Approach
+		String s="One Two Three";
+		int arrChar=s.toCharArray().length;
+		System.out.println(arrChar);
+		
 	}
 }
